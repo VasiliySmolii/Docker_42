@@ -7,4 +7,4 @@ Project consists of three parts:
 * Dockerfile
 * Bonus
 
-See [subject](docker.en (1).pdf) to get more information about the problems to solve.The solution are usually represented by a shell script or description.
+See [subject](https://github.com/VPetrovi4/Docker_42/files/3749092/docker.en.pdf) to get more information about the questions to solve.The solution are usually represented by a shell script or description.
