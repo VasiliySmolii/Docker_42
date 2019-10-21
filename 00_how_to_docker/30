@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    30                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 17:32:48 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 20:09:51 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Increase the number of copies of the marines service up to twenty, because there’s
+# never enough Marines to eliminate Zergs. (Remember to take a look at the tasks
+# and logs of the service, you’ll see, it’s fun.)
+
+docker service scale -d marines=20
+
+# docker service ps marines
+
+scale — Scale one or multiple replicated services.

@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    24                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 17:05:29 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 17:21:03 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Launch a rabbitmq SERVICE that will be named orbital-command. You should
+# define a specific user and password for the RabbitMQ service, they can be whatever
+# you want. This service will be on the overmind network.
+
+docker service create -d --network overmind --name orbital-command -e RABBITMQ_DEFAULT_USER=root -e RABBITMQ_DEFAULT_PASS=root rabbitmq
+
+# Setting default user and password
+# If you wish to change the default username and
+# password of guest / guest, you can do so with the
+# RABBITMQ_DEFAULT_USER and RABBITMQ_DEFAULT_PASS

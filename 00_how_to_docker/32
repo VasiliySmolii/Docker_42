@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    32                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 17:33:10 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 20:11:02 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Force quit and delete all the containers (whatever their status), in one command
+
+docker rm -f $(docker ps -a -q)
+
+# -f, --force = Force the removal of a running container (uses SIGKILL).

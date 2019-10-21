@@ -1,0 +1,27 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 14:58:46 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 15:41:48 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Launch an nginx container, available on Docker Hub, as a background task. It
+# should be named overlord, be able to restart on its own, and have its 80 port
+# attached to the 5000 port of Char. You can check that your container functions
+# properly by visiting
+# http://<ip-de-char>:5000 on your web browser.
+
+docker run -d -p 5000:80 --name overlord --restart=always nginx
+
+# my answer = 426318832df11cfd3fd612bf8ed6c025fb30ade0361981d94c8d0fccf5111e63
+# -d (detach) = Run container in background
+# -p = Publish a container's ports to the host, HOST PORT:CONTAINER PORT
+# --restart = able to restart on its own
+# You should get the ip with the command (docker-machine ip (name(Char in our case)))
+# And append the ip with ":5000"
+

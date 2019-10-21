@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/06 23:17:03 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/06 23:18:32 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Create a virtual machine with docker-machine using the virtualbox driver, and
+#named Char
+
+docker-machine create --driver=virtualbox Char
+

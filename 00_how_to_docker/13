@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 16:20:01 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 16:21:25 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Print the environment variables of the spawning-pool container in one command,
+# to be sure that you have configured your container properly.
+
+docker exec spawning-pool env
+
+# exec = Run a command in a running container

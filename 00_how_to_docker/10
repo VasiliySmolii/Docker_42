@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 16:12:19 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 16:14:06 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Create a volume named hatchery.
+
+docker volume create --name hatchery
+
+# https://docs.docker.com/engine/reference/commandline/volume_create/

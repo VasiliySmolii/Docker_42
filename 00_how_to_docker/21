@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    21                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 16:58:40 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 17:01:05 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Create another virtual machine with docker-machine using the virtualbox driver,
+# and name it Aiur.
+
+docker-machine create --driver virtualbox Aiur
+

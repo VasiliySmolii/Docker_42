@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    34                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 17:33:43 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 20:11:45 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Delete the Aiur virtual machine without using rm -rf.
+
+docker-machine rm -y Aiur
+
+# -y = Assumes automatic yes to proceed with remove, without prompting further user confirmation.

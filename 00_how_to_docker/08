@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 15:43:02 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 16:04:44 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Launch a shell from an alpine container, and make sure that you can interact
+# directly with the container via your terminal, and that the container deletes itself
+# once the shell’s execution is done.
+
+#pull alpine first "docker pull alpine"
+
+docker run -it --rm alpine
+
+# -it for interactin with the terminal
+# --rm for delete it

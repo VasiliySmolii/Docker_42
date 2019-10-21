@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vsmolii <vsmolii@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/09/07 11:10:02 by vsmolii           #+#    #+#              #
+#    Updated: 2019/09/07 14:53:22 by vsmolii          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Define the variables needed by your virtual machine Char in the general env of your
+#terminal, so that you can run the docker ps command without errors. You have
+#to fix all four environment variables with one command, and you are not allowed
+#to use your shell’s builtin to set these variables by hand.
+
+eval "$(docker-machine env Char)"
+
+# env (command) shows all the variables of my computer
